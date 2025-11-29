@@ -1,0 +1,13 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:screen_3/screen/screen-3.dart';
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Screen3(),
+      debugShowCheckedModeBanner: false,
+    );
+  }
+}
